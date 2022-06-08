@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title></title>
+</head>
+
+<body>
+  <div class="wrapper">
+    
+    <div class="header__wrapper ">
+      <div class="container">
+        <header class="header">
+          <div class="logo__box">
+            <a href="./index.html" class="header__logo logo js_logo-data" data-text="">
+              <span class="js_website-name">Logo</span>
+            </a>
+          </div>
+          <a href="./shop.html" class="cart__btn">
+            Cart
+            <span class="cart__span js_cart__span">0</span>
+        
+           
+          </a>
+        </header>
+      </div>
+    </div>
+
+
+    <main class="main">
+     
+
+      <div class="products__wrapper">
+        <section class="products">
+          <div class="container shop-container">
+            <div class="sub-title__box">
+              <div class="orders__block">
+                <div class="js_empty-cart ">
+                  <p class="sub-title">Your Cart is Empty</p>
+                </div>
+                <table class="orders__table js_product-table hidden">
+                  <caption>
+                    <h2 class="sub-title">Your orders</h2>
+                  </caption>
+                  <tbody>
+                  <tr class="js_table-row">
+                    <th class="orders__table-title">Name</th>
+                    <th class="orders__table-title">Quantity</th>
+                    <th class="orders__table-title">Unit Price</th>
+                    <th class="orders__table-title">Price</th>
+                    <th class="orders__table-title"></th>
+                  </tr>
+                 
+                  <tr>
+                    <td class="text">Total:</td>
+                    <td class="text js_total-quantity">2</td>
+                    <td class="text"></td>
+                    <td class="orders__table-title js_total-price">$ 44.98</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+                </table>
+                <a href="./index.html" class="btn orders__btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+               <g><g><path d="M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12
+                     C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084
+                     c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864
+                     l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z"/>
+               </g></g>
+                  </svg>
+                  Continue Shopping</a>
+              </div>
+            </div>
+            <form action="" class="form js_form">
+              <div class="inputs-box">
+              <label class="label">
+                <!-- First Name -->
+                <input type="text" class="input" placeholder="First Name">
+              </label>
+        
+              <label class="label">
+                <!-- Last Name -->
+                <input type="text" class="input" placeholder="Last Name">
+              </label>
+            </div>
+            <div class="inputs-box">
+              <label class="label">
+                <!-- Address -->
+                <input type="text" class="input" placeholder="Address">
+              </label>
+              
+              <label class="label">
+                <!-- City -->
+                <input type="text" class="input" placeholder="City">
+              </label>
+              </div>
+              <div class="inputs-box">
+              <label class="label">
+                <!-- State -->
+                <select name="state" class="select">
+                  <option selected="" disabled="">Select State</option>
+                  <option>Alabama</option>
+                  <option>Alaska</option>
+                  <option>Arizona</option>
+                  <option>Arkansas</option>
+                  <option>California</option>
+                  <option>Colorado</option>
+                  <option>Connecticut</option>
+                  <option>Delaware</option>
+                  <option>Florida</option>
+                  <option>Georgia</option>
+                  <option>Hawaii</option>
+                  <option>Idaho</option>
+                  <option>Illinois</option>
+                  <option>Indiana</option>
+                  <option>Iowa</option>
+                  <option>Kansas</option>
+                  <option>Kentucky</option>
+                  <option>Louisiana</option>
+                  <option>Maine</option>
+                  <option>Maryland</option>
+                  <option>Massachusetts</option>
+                  <option>Michigan</option>
+                  <option>Minnesota</option>
+                  <option>Mississippi</option>
+                  <option>Missouri</option>
+                  <option>Montana</option>
+                  <option>Nebraska</option>
+                  <option>Nevada</option>
+                  <option>New Hampshire</option>
+                  <option>New Jersey</option>
+                  <option>New Mexico</option>
+                  <option>New York</option>
+                  <option>North Carolina</option>
+                  <option>North Dakota</option>
+                  <option>Ohio</option>
+                  <option>Oklahoma</option>
+                  <option>Oregon</option>
+                  <option>Pennsylvania</option>
+                  <option>Rhode Island</option>
+                  <option>South Carolina</option>
+                  <option>South Dakota</option>
+                  <option>Tennessee</option>
+                  <option>Texas</option>
+                  <option>Utah</option>
+                  <option>Vermont</option>
+                  <option>Virginia</option>
+                  <option>Washington</option>
+                  <option>West Virginia</option>
+                  <option>Wisconsin</option>
+                  <option>Wyoming</option>
+                </select>
+              </label>
+              
+              <label class="label">
+                <!-- Zip Code -->
+                <input type="number" class="input" placeholder="Zip Code">
+              </label>
+              </div>
+              <div class="inputs-box">
+              <label class="label">
+                <!-- Phone Number -->
+                <input type="number" class="input" placeholder="Phone Number">
+              </label>
+              
+              <label class="label">
+                <!-- Email Address -->
+                <input type="email" class="input" placeholder="Email Address">
+              </label>
+              </div>
+              <div class="form__card-box js_card-box">
+                <span>Please select your card</span>
+                <div class="form__card-block">
+                  <div class="form__card-box-dropdown js_card-box-dropdown">
+                    <button type="button" id="visa" class="js_card-name">Visa</button>
+                    <button type="button" id="mastercard" class="js_card-name hidden-btn">Mastercard</button>
+                    <button type="button" id="discovercard" class="js_card-name hidden-btn">Discover</button>
+                  </div>
+                  <div class="form__card-box-list">
+                      <img src="./img/icons/mastercard.png" alt="" data-id="mastercard" class="hidden js_card-img">
+                      <img src="./img/icons/visa.png" alt="" data-id="visa" class="js_card-img">
+                      <img src="./img/icons/discovercard.png" alt="" data-id="discovercard" class="hidden js_card-img">
+                  </div>
+                </div>
+   
+              </div>
+              <div class="inputs-box">
+              <label class="label">
+                <!-- Card Number -->
+                <input type="number" class="input" placeholder="Card Number">
+              </label>
+              
+              <label class="label">
+                <!-- Card Holder -->
+                <input type="text" class="input" placeholder="Card Holder">
+              </label>
+            </div>
+            <div class="inputs-box">
+              <label class="label">
+                <!-- Expires -->
+                <input type="month" class="input" placeholder="Expires">
+              </label>
+
+              <label class="label">
+                <!-- CVC -->
+                <input type="number" class="input" placeholder="CVC">
+              </label>
+            </div>
+
+                <input type="checkbox" class="input checkbox-input" id="checkbox">
+                <label for="checkbox" class="label checkbox-label">
+                  By placing an order with us, you agree to our full <a href="purchase.html" class="bold">Terms And Conditions</a> & <a href="privacy.html" class="bold">Privacy Policy</a>, which explain that you will be charged  <span class="js_total-price"></span> (No Shipping and handling costs). Shipment via USPS typically takes <a href="shipping.html" class="bold">3 to 5 business days.</a>  To cancel your order, please call our Customer Service to free number at <span class="link js_website-phone"></span> or email us at <span class="link js_website-email"></span>. You will see a charge from <span class="js_website-desc"></span> on your bank statement. Our Customer Service department reserves the right to offer promo codes for varied price points.
+                </label>
+                
+              
+              <button type="submit" class="btn js_form-submit-btn">Checkout</button>
+             
+          </form>
+        </section>
+      </div>
+    </main>
+
+
+
+    <div class="footer__wrapper ">
+
+      <div class='air air1'></div>
+      <div class='air air2'></div>
+      <div class='air air3'></div>
+      <div class='air air4'></div>
+
+      
+      <div class="container">
+        <footer class="footer">
+          <div class="footer__top">
+            <div class="footer__right">
+              <p class="footer__title">Policies</p>
+              <a href="./contacts.html" class="text footer__link footer__page-link">
+                <span class="footer__link-span">Contact Us</span>
+              </a>
+              <a href="./privacy.html" class="text footer__link footer__page-link">
+                <span class="footer__link-span">Privacy Notice</span>
+              </a>
+              <a href="./return.html" class="text footer__link footer__page-link">
+                <span class="footer__link-span">Return Policy</span>
+              </a>
+              <a href="./shipping.html" class="text footer__link footer__page-link">
+                <span class="footer__link-span">Shipping Policy</span>
+              </a>
+              <a href="./purchase.html" class="text footer__link footer__page-link">
+                <span class="footer__link-span">Terms of Purchase</span>
+              </a>
+              <a href="./use.html" class="text footer__link footer__page-link">
+                <span class="footer__link-span">Terms of Use</span>
+              </a>
+            </div>
+            <div class="footer__left">
+              <p class="footer__title">Our Contacts</p>
+              <p class="text js_website-corp"></p>
+              <div class="footer__text">
+                <span class="text bold">Email:</span> 
+                <a href="" class="text footer__link js_website-email"></a>
+              </div>
+              
+              <p class="text footer__text">
+                <span class="bold">Address:</span> <span class="footer__link footer__link-no js_website-address">1360 Clifton Ave. #237, Clifton, NJ 07012, USA</span>
+              </p>
+              <div class="footer__text">
+                <span class="text bold">Phone:</span>
+                <a href="" class="text footer__link footer__text js_website-phone"></a>
+              </div>
+              
+              <p class="text">Return Address: <span class="js_website-return-address"></span></p>
+            </div>
+          
+            <div class="logo__box">
+              <a href="./index.html" class="footer__logo logo js_logo-data" data-text="Logo">
+              <span class="js_website-name"></span>
+              </a>
+            </div>
+          </div>
+          <span class="footer__span">© 2021 All rights reserved</span>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./js/on-load.js"></script>
+  <script src="./js/card-box.js"></script>
+  <script src="./js/canvas.js"></script>
+  <script src="./js/canvas.js"></script>
+  <script src="./js/website-data.js"></script>
+</body>
+
+</html>

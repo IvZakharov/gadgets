@@ -1,0 +1,30 @@
+.hero__wrapper {
+    background-image: url('../img/hero.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero {
+    padding: 20rem 0;
+    text-align: center;
+}
+
+.hero .title {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em #8E9AAF, 0 0 0.2em #8E9AAF;
+}
+@media screen and (min-width: 1024px) {
+    .hero {
+        padding: 24rem 0;
+    }
+
+    .hero .title {
+        color: white;
+        font-size: 80px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .hero {
+        padding: 28rem 0;
+    }
+}
